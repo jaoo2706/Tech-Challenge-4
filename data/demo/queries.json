@@ -1,0 +1,75 @@
+[
+  {
+    "question": "O que os clientes relatam sobre atrasos na entrega?",
+    "relevant_orders": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D22"
+    ]
+  },
+  {
+    "question": "Quais avaliações mencionam que o pedido não chegou?",
+    "relevant_orders": [
+      "D05",
+      "D06"
+    ]
+  },
+  {
+    "question": "Quais consumidores relatam ter recebido um produto errado?",
+    "relevant_orders": [
+      "D07",
+      "D08"
+    ]
+  },
+  {
+    "question": "Que problemas os clientes enfrentaram com produtos quebrados, danificados ou com defeito?",
+    "relevant_orders": [
+      "D09",
+      "D10",
+      "D11"
+    ]
+  },
+  {
+    "question": "Quais avaliações elogiam a rapidez da entrega?",
+    "relevant_orders": [
+      "D12",
+      "D13",
+      "D17"
+    ]
+  },
+  {
+    "question": "O que os clientes elogiam sobre a qualidade dos produtos?",
+    "relevant_orders": [
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D23"
+    ]
+  },
+  {
+    "question": "O que as avaliações dizem de positivo sobre o atendimento?",
+    "relevant_orders": [
+      "D18",
+      "D19"
+    ]
+  },
+  {
+    "question": "Qual era a margem de lucro da Olist?",
+    "relevant_orders": []
+  },
+  {
+    "question": "Qual é a capital da Noruega?",
+    "relevant_orders": []
+  },
+  {
+    "question": "Qual foi o custo de cada entrega para o vendedor?",
+    "relevant_orders": []
+  },
+  {
+    "question": "Quais são as previsões para as vendas no próximo mês?",
+    "relevant_orders": []
+  }
+]

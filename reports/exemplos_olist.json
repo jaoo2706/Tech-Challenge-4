@@ -1,0 +1,867 @@
+[
+ {
+  "pergunta": "Quais avaliações sustentam a conclusão de que há problemas de prazo de entrega?",
+  "notas": [
+   1,
+   2
+  ],
+  "status": "respondido",
+  "achados": [
+   {
+    "texto": "O status do transporte não forneceu justificativas para atrasos e falta de contato.",
+    "fontes": [
+     {
+      "id": "R3c0f7584c2d6594a",
+      "trecho": "ao longo do período, pedi mais detalhes do status para acompanhar o processo e nunca ligaram."
+     },
+     {
+      "id": "Rd71656861a1da91a",
+      "trecho": "esperava um contato para justificar o acontecido e q por isso a entrega atrasaria mas ñ tive"
+     }
+    ]
+   },
+   {
+    "texto": "O recebimento do produto foi finalizado sem a entrega.",
+    "fontes": [
+     {
+      "id": "Rb6038375f659ec62",
+      "trecho": "O prazo de entrega finalizou e nao recebi o produto"
+     }
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "id": "R2c76e58bd8b96fc0",
+    "review_id": "e8a7de56575f45bfff67b585209c037f",
+    "order_id": "f9198719b5e6149a3191c420285a7245",
+    "nota": 1,
+    "texto": "Prazo de entrega"
+   },
+   {
+    "id": "R70cc05e64540484c",
+    "review_id": "75d8bc14794ee336415f42cf6321821a",
+    "order_id": "9781e9a5064f50e5bb4ce028b9f1963b",
+    "nota": 1,
+    "texto": "Ñ compriu seu prazo de entrega"
+   },
+   {
+    "id": "R3c0f7584c2d6594a",
+    "review_id": "d6a5ec076e4c05013876308faf6cdc8b",
+    "order_id": "a3b14686446d3401d67a3421891c34a3",
+    "nota": 1,
+    "texto": "Total falta de respeito com o consumidor. Além de não realizar a entrega que tinha um prazo enorme, ao longo do período, pedi mais detalhes do status para acompanhar o processo e nunca ligaram."
+   },
+   {
+    "id": "Rd71656861a1da91a",
+    "review_id": "b72948c0912824f5660a661fcb3ef512",
+    "order_id": "440d0d17af552815d15a9e41abe49359",
+    "nota": 1,
+    "texto": "prazo de entrega ultrapassou o previsto, vi pelo status q ocorreu algo durante o transporte da mercadoria e esperava um contato para justificar o acontecido e q por isso a entrega atrasaria mas ñ tive"
+   },
+   {
+    "id": "Rb6038375f659ec62",
+    "review_id": "6acb3cb2736d034e09778d4d2ebb5129",
+    "order_id": "debba1cc1685803f891dc845be9f9119",
+    "nota": 1,
+    "texto": "O prazo de entrega finalizou e nao recebi o produto"
+   },
+   {
+    "id": "Rdde0c7a75b8a31b9",
+    "review_id": "6bb17113a061e2e8bb65b706278b4d75",
+    "order_id": "6376db8b01455ca1b4a1c3d89ad69316",
+    "nota": 2,
+    "texto": "Prazo de entrega não foi cumprido. Encomenda ainda não chegou."
+   },
+   {
+    "id": "Rf47f176ec3bca499",
+    "review_id": "247e5873bde75f075031ff46770972d3",
+    "order_id": "ef9a774a63ac7a8f256cd7dc7a52f03c",
+    "nota": 1,
+    "texto": "O pedido foi entregue no prazo Mais o pedido tem o acabamento e a qualidade ruim e a mala pequena veio com defeito"
+   },
+   {
+    "id": "Raaba19d5c7e12596",
+    "review_id": "8d652c40dddb2f5bdf08c784e99c55ed",
+    "order_id": "e6bed0846d5d268bf1ebcf66eab19a42",
+    "nota": 1,
+    "texto": "É a primeira vez que há atraso nos meus pedidos."
+   }
+  ]
+ },
+ {
+  "pergunta": "O que dizem os clientes insatisfeitos com produtos quebrados ou com defeito?",
+  "notas": [
+   1,
+   2
+  ],
+  "status": "respondido",
+  "achados": [
+   {
+    "texto": "Um cliente relata ter recebido um produto quebrado e reclama da falta de posicionamento dos fornecedores.",
+    "fontes": [
+     {
+      "id": "R9ac985392d28b80a",
+      "trecho": "Produto quebrado — Recebi o produto quebrado, e até o momento não recebi nenhuma posição dos fornecedores."
+     }
+    ]
+   },
+   {
+    "texto": "Um cliente relata ter recebido um produto insatisfatório devido à demora na entrega e à baixa qualidade.",
+    "fontes": [
+     {
+      "id": "Rc271ba32e7524364",
+      "trecho": "produto insatisfatorio — demora na entrega e produto de baixa qualidade"
+     }
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "id": "R70c89e70b62c7141",
+    "review_id": "eeafacf5860957c8c7f64dd182586816",
+    "order_id": "725caf02795e0b544f8632bc82a3390b",
+    "nota": 2,
+    "texto": "Produto com defeito — produto com defeito"
+   },
+   {
+    "id": "R56c795c1776f5755",
+    "review_id": "eada60766110d984171b1a231c1e3600",
+    "order_id": "93d46ea758b312e44cd1611c3ac69f72",
+    "nota": 1,
+    "texto": "produto com defeito"
+   },
+   {
+    "id": "R64ffa9822817e9d9",
+    "review_id": "1e0311ba228361042d8e0e1d0cd411fb",
+    "order_id": "d744cb215df7ef8b3354cff971229cb7",
+    "nota": 1,
+    "texto": "Produto com defeito — Produto com defeito desejo a troca"
+   },
+   {
+    "id": "Rd2e06f6ef7cda757",
+    "review_id": "c2f7b59188bbbbcd2e6c8e877212a160",
+    "order_id": "3f5d83fd2c551b9eeac583644c97ad09",
+    "nota": 1,
+    "texto": "Insatisfação — Fiz uma compra q foi cancelada por vcs. Tentei por diversas vezes falar com vcs contudo não fui atendido. Não sei pq minha compra foi cancelada? Ninguém entrou em contato e não consigo ser atendido"
+   },
+   {
+    "id": "R50421bef60ed78b9",
+    "review_id": "50a97079bab9b08502ac7ad2d962ae78",
+    "order_id": "8ae7da80a0ae007c1d30c6ff5dc3bf26",
+    "nota": 2,
+    "texto": "Produto com defeito..."
+   },
+   {
+    "id": "R2338fd76f125417f",
+    "review_id": "bad89ab166a2a98c91fbc1e42bd54648",
+    "order_id": "3b4b5ec89dc09c7aedc74199be65fef7",
+    "nota": 1,
+    "texto": "Não cumpre o que anuncia. Não entregou o produto. Quero meu dinheiro de volta. Desonestidade."
+   },
+   {
+    "id": "R9ac985392d28b80a",
+    "review_id": "3f3ac4ddea8d9ae38fc3c127b53eecad",
+    "order_id": "6d669b4dec428bc8362a8b39ed61aaae",
+    "nota": 1,
+    "texto": "Produto quebrado — Recebi o produto quebrado, e até o momento não recebi nenhuma posição dos fornecedores. Uma semana sem nenhum atendimento de qualidade."
+   },
+   {
+    "id": "Rc271ba32e7524364",
+    "review_id": "190b01af91fb754443307e59209136d6",
+    "order_id": "945552359381c20f8e692b034ba74c44",
+    "nota": 1,
+    "texto": "produto insatisfatorio — demora na entrega e produto de baixa qualidade"
+   }
+  ]
+ },
+ {
+  "pergunta": "O que os clientes relatam sobre atrasos na entrega?",
+  "notas": [
+   1,
+   5
+  ],
+  "status": "respondido",
+  "achados": [
+   {
+    "texto": "O cliente relata que a empresa não comunica o status da entrega e não oferece satisfação ao cliente em caso de atraso.",
+    "fontes": [
+     {
+      "id": "R94d5c78761155b08",
+      "trecho": "o fato de não comunicarem seu cliente final é vergonhoso"
+     }
+    ]
+   },
+   {
+    "texto": "O cliente relata atraso na entrega sem dar satisfação e expressa frustração com a falta de consideração.",
+    "fontes": [
+     {
+      "id": "Rc609cce66139ce16",
+      "trecho": "Atraso na entrega sem dar satisfação ao cliente, que com certeza escolheu o produto com cuidado e com as melhores expectativas"
+     }
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "id": "R94d5c78761155b08",
+    "review_id": "d7486b4da781b9d7dc5484ce65868081",
+    "order_id": "45973912e490866800c0aea8f63099c8",
+    "nota": 1,
+    "texto": "Atrasos acontecem nenhuma empresa está livre de passar por algum problema de logística. Mas o fato de não comunicarem seu cliente final é vergonhoso. Até o Mercado Livre tem controle sobre atrasos!"
+   },
+   {
+    "id": "R3c0f7584c2d6594a",
+    "review_id": "d6a5ec076e4c05013876308faf6cdc8b",
+    "order_id": "a3b14686446d3401d67a3421891c34a3",
+    "nota": 1,
+    "texto": "Total falta de respeito com o consumidor. Além de não realizar a entrega que tinha um prazo enorme, ao longo do período, pedi mais detalhes do status para acompanhar o processo e nunca ligaram."
+   },
+   {
+    "id": "Rc609cce66139ce16",
+    "review_id": "2d0a07007cc84621a2bc694505be4036",
+    "order_id": "0f29bafaaa77f4548165215b66bd97e4",
+    "nota": 1,
+    "texto": "Atraso na entrega sem dar satisfação ao cliente, que com certeza escolheu o produto com cuidado e com as melhores expectativas. Falta de consideração."
+   },
+   {
+    "id": "Re8c68a882ac19ede",
+    "review_id": "a1074ef6728469383f2a8bf58fd98e51",
+    "order_id": "a4052a184e5a78c6be9f09a9fed53279",
+    "nota": 1,
+    "texto": "Atraso na entrega"
+   },
+   {
+    "id": "R480696b411a892dc",
+    "review_id": "b27ef0d4411afecb412876c2b0b24324",
+    "order_id": "3a604ee4bab12dd296760f2295b74614",
+    "nota": 1,
+    "texto": "Primeiro marcaram uma data e nao cumpriram depois disseram ter dificuldade na entrega quando recebemos pelo menos 50 encomendas por dia"
+   },
+   {
+    "id": "R3408ff36fb3f5b05",
+    "review_id": "7fb6f98f7823ed02e9a3791a1557851e",
+    "order_id": "5691108060e2d41f29c317bb5f4d70ab",
+    "nota": 5,
+    "texto": "Houve problema no transporte e em consequência disso um grande atraso. Mas foi a primeira vez que ocorreu. Os produtos sempre são entregues antes do prazo."
+   },
+   {
+    "id": "R8f77f3010163f933",
+    "review_id": "38a982cbe0fc0d4815c0ec8f582ad35c",
+    "order_id": "80fa872d47da85872411a201a1a89dbd",
+    "nota": 5,
+    "texto": "Super recomendo — Loja atenciosa com os clientes super recomendo; alem de toda atençao com os clientes produto chegou antes do prazo"
+   },
+   {
+    "id": "Rd29cddd1a041dce1",
+    "review_id": "e839f1f0a5d3393a8709fd3f59b7b240",
+    "order_id": "58274272cfde0e71c0ee61eaee5a60e1",
+    "nota": 1,
+    "texto": "Atraso na entrega — Quero saber quando entregarão o produto? Era presente de aniversário e não chegou na data."
+   }
+  ]
+ },
+ {
+  "pergunta": "Quais avaliações mencionam que o pedido não chegou?",
+  "notas": [
+   1,
+   2
+  ],
+  "status": "respondido",
+  "achados": [
+   {
+    "texto": "O pedido não foi entregue",
+    "fontes": [
+     {
+      "id": "R4b43a90c0c006ea0",
+      "trecho": "O pedido não foi entregue"
+     }
+    ]
+   },
+   {
+    "texto": "Meu pedido não foi entregue",
+    "fontes": [
+     {
+      "id": "R5c718387ff874647",
+      "trecho": "o pedido nao foi entregue"
+     }
+    ]
+   },
+   {
+    "texto": "Produto não entregue — O pedido não foi entregue",
+    "fontes": [
+     {
+      "id": "R03f2ca1b86126a46",
+      "trecho": "Produto não entregue — O pedido não foi entregue."
+     },
+     {
+      "id": "R8385b5a05767c203",
+      "trecho": "Meu pedido ainda não foi — Meu pedido não foi entregue"
+     }
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "id": "R4b43a90c0c006ea0",
+    "review_id": "a76939c8aadc8535391f7f2117594b86",
+    "order_id": "2474b5060c1dfacbb46002aa2563f9bc",
+    "nota": 1,
+    "texto": "O pedido não foi entregue"
+   },
+   {
+    "id": "R5c718387ff874647",
+    "review_id": "aed4d3206b5f7198dcfa96d99877d6ff",
+    "order_id": "975f731e0b62d3884197075bbf60685a",
+    "nota": 1,
+    "texto": "o pedido nao foi entregue"
+   },
+   {
+    "id": "R03f2ca1b86126a46",
+    "review_id": "3cab3303d9c5cca48e3155feff00f5ad",
+    "order_id": "6902f0d9d7309f56f50b8713c3b6a4de",
+    "nota": 1,
+    "texto": "Produto não entregue — O pedido não foi entregue."
+   },
+   {
+    "id": "Rde3ff4fa634d5249",
+    "review_id": "a31afffe2c78af660424a963ff41108a",
+    "order_id": "2c44ef48e157c9a43e9998da9a3248bd",
+    "nota": 1,
+    "texto": "Fiz o pedido e não veio."
+   },
+   {
+    "id": "R8385b5a05767c203",
+    "review_id": "372a9075832d98efe0bdeab7af001209",
+    "order_id": "2b174fe50fe22617055b7220b4b43c26",
+    "nota": 2,
+    "texto": "Meu pedido ainda não foi — Meu pedido não foi entregue"
+   },
+   {
+    "id": "Rc312a4b64abc3fb8",
+    "review_id": "b8ee78b3ced2f119b89b611a0efdba7b",
+    "order_id": "f688669f48063536e082bb32d634cd46",
+    "nota": 1,
+    "texto": "Meu pedido consta como entregue, mas na verdade não foi. E a loja não respondeu meu questionamento sobre a não entrega."
+   },
+   {
+    "id": "Rf6b4015c7a544de2",
+    "review_id": "a3934ff1ab12574ab07f5eb5fbd38c78",
+    "order_id": "74ad3397d84521ee94f326aad1a35d14",
+    "nota": 1,
+    "texto": "MEU PEDIDO NÃO CHEGOU!"
+   },
+   {
+    "id": "R0689f47e5d03937b",
+    "review_id": "e5db1be774e0342f0998a113baf22db5",
+    "order_id": "a7a423a542937b74dff48feaf2dd1126",
+    "nota": 1,
+    "texto": "Pedido já tinha um longo prazo para entrega e ainda atrasa. Produto não recebido ainda."
+   }
+  ]
+ },
+ {
+  "pergunta": "O que os clientes elogiam sobre a qualidade dos produtos?",
+  "notas": [
+   4,
+   5
+  ],
+  "status": "respondido",
+  "achados": [
+   {
+    "texto": "Os clientes mencionam que os produtos são de qualidade.",
+    "fontes": [
+     {
+      "id": "R452a4fd134dd1c41",
+      "trecho": "produtos de qualidade"
+     }
+    ]
+   },
+   {
+    "texto": "Alguns clientes relatam que a qualidade dos produtos é excelente.",
+    "fontes": [
+     {
+      "id": "Rae7a547af1bc4a2e",
+      "trecho": "qualidade e agilidade"
+     },
+     {
+      "id": "R4dc26f79560599b9",
+      "trecho": "Produto de excelente qualidade."
+     },
+     {
+      "id": "R3d220f05925da0a7",
+      "trecho": "a qualidade dos produtos muito boa."
+     }
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "id": "R452a4fd134dd1c41",
+    "review_id": "2e41aff5540a25f4ae6d0fd675458bb5",
+    "order_id": "714e2644ab665027234ed7a6b3e82274",
+    "nota": 5,
+    "texto": "produtos de qualidade"
+   },
+   {
+    "id": "Rae7a547af1bc4a2e",
+    "review_id": "88a4a912ad8a2c06304d6045bc9175c0",
+    "order_id": "22e4add79c3efc7828d1119a222b76da",
+    "nota": 4,
+    "texto": "excelente!!!! — Gosto do respeito e preocupação que vocês tem com os clientes! qualidade e agilidade"
+   },
+   {
+    "id": "R4dc26f79560599b9",
+    "review_id": "07a4c0fd1d3bc16284492825bdd62bff",
+    "order_id": "7b78cc6982a3e84c736e54249ed7612c",
+    "nota": 5,
+    "texto": "Elogio — Entrega bem antes do prazo. Produto de excelente qualidade. Recomendo o produto e a loja."
+   },
+   {
+    "id": "Rc69b7a15b4321156",
+    "review_id": "2685a4800004a12ec09d27264ff1915f",
+    "order_id": "5c973d2b4652e1dec15353b59339f3b4",
+    "nota": 5,
+    "texto": "Recomendo a todos os clientes"
+   },
+   {
+    "id": "Rfeb0948296e57d35",
+    "review_id": "7386b68489e00081752ae75cf5007c48",
+    "order_id": "cf47ad2fb60cae3f74b943646f685c94",
+    "nota": 5,
+    "texto": "Totalmente responsáveis, produto entregue, informação dada ao cliente, preocupação com o cliente. Recomendo."
+   },
+   {
+    "id": "R3d220f05925da0a7",
+    "review_id": "f47a81cac00b631d030e2384dabb4462",
+    "order_id": "8e2fa0b77725b0b8d060123e347344fd",
+    "nota": 5,
+    "texto": "Entrega super rápida e a qualidade dos produtos muito boa."
+   },
+   {
+    "id": "R82c6926307a8d115",
+    "review_id": "dcebfef07ae5bad804471747a19338e0",
+    "order_id": "779faf56113de193cb40644b3c455c44",
+    "nota": 5,
+    "texto": "Estão de parabéns pela pontualidade e qualidade dos produtos."
+   },
+   {
+    "id": "Raf3d74bfe254894f",
+    "review_id": "55f6427b42980f02969967b173bb35aa",
+    "order_id": "cc40ce12255e937ab19d9124f4d0d56b",
+    "nota": 5,
+    "texto": "Produto de qualidade. Compra satisfatória. Recomendo!"
+   }
+  ]
+ },
+ {
+  "pergunta": "Quais são os principais problemas relatados pelos clientes?",
+  "notas": [
+   1,
+   2
+  ],
+  "status": "respondido",
+  "achados": [
+   {
+    "texto": "Clientes relatam atrasos na entrega e falta de comunicação.",
+    "fontes": [
+     {
+      "id": "R911c14aca233c050",
+      "trecho": "Produto mais que passou do prazo de entregar, tento resolver o problema com a empresa e não consigo falar com ninguém."
+     },
+     {
+      "id": "R3c0f7584c2d6594a",
+      "trecho": "Total falta de respeito com o consumidor. Além de não realizar a entrega que tinha um prazo enorme, ao longo do período, pedi mais detalhes do status para acompanhar o processo e nunca ligaram."
+     }
+    ]
+   },
+   {
+    "texto": "Clientes recebem produtos errados ou incompletos.",
+    "fontes": [
+     {
+      "id": "R6083b236bd4bdd19",
+      "trecho": "Oque aconteceu com o meu pedido ? Me mandaram uma peça totalmente diferente da qual eu comprei"
+     },
+     {
+      "id": "R193951ac1e2f8f34",
+      "trecho": "Problemas — Entregaram apenas um produto dos quatro itens do pedido... Quero o restante do pedido... Cadê?"
+     },
+     {
+      "id": "Rc08d9caf05bc888d",
+      "trecho": "Sou cliente há anos, porém sempre há divergências e problemas na entrega, consta como produto entregue, porém foi entregue apenas 1 produto, aguardo solução!"
+     }
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "id": "R911c14aca233c050",
+    "review_id": "24203dee295cf23bd24b7ace9bca261f",
+    "order_id": "1e189a60261c3efb60bdace6d37ac223",
+    "nota": 1,
+    "texto": "Produto mais que passou do prazo de entregar, tento resolver o problema com a empresa e não consigo falar com ninguém. Tudo que fazem é me passar para reclamar num sistema que não funciona."
+   },
+   {
+    "id": "R5a3eeebbc3f6f268",
+    "review_id": "28cfb15fb82d073249fb59491c925ed1",
+    "order_id": "e43d4fe81a0a7828e55dc60e33ce7921",
+    "nota": 1,
+    "texto": "Porque vocês não ligam pra sabe? vocês estão malucos por dinheiro, não querem atender os clientes,o que ta acontecendo? pedi mil vezes pra não entregar a merda do produto e vocês entregaram"
+   },
+   {
+    "id": "R3c0f7584c2d6594a",
+    "review_id": "d6a5ec076e4c05013876308faf6cdc8b",
+    "order_id": "a3b14686446d3401d67a3421891c34a3",
+    "nota": 1,
+    "texto": "Total falta de respeito com o consumidor. Além de não realizar a entrega que tinha um prazo enorme, ao longo do período, pedi mais detalhes do status para acompanhar o processo e nunca ligaram."
+   },
+   {
+    "id": "Rf66408ff4e636a11",
+    "review_id": "8e7d6637cd82be535e19988b741418e0",
+    "order_id": "f6cc5ac0be9196f2fb3db04bace5cd8b",
+    "nota": 1,
+    "texto": "Falta entre lojas e clientes"
+   },
+   {
+    "id": "R28bb35241bce40cb",
+    "review_id": "b369ba482fb3837283d080b0a5574fb7",
+    "order_id": "21e668861c7c6205d1e20ce7b24fae41",
+    "nota": 1,
+    "texto": "Desrespeito com o cliente — Falta de respeito com o cliente"
+   },
+   {
+    "id": "R6083b236bd4bdd19",
+    "review_id": "e226f36a65a19539e145acad41b319e8",
+    "order_id": "f5fd5a60ecd5d154ea3e307e70188123",
+    "nota": 1,
+    "texto": "Oque aconteceu com o meu pedido ? Me mandaram uma peça totalmente diferente da qual eu comprei ; nao consigo falar com ninguem nem por tel nem por email; lannister como vamoresolver isso?"
+   },
+   {
+    "id": "Ra5307e408f5735a4",
+    "review_id": "aefe1fc186edbdb4e9de2082da9eaf42",
+    "order_id": "a0141c1141d9406b48466fe4d1492bf4",
+    "nota": 1,
+    "texto": "Acho uma falta de respeito com o cliente a minha compra esta atrasada e ninguém da uma satisfação mando mensagem nao mim retorna. So dei uma estrela pq pede mas não vale estrela nenhuma."
+   },
+   {
+    "id": "Rd873dfec9bd6868b",
+    "review_id": "fe4cbcab59ab133b24d73937983975fa",
+    "order_id": "0444bf76794ff96fd22fff6be21bdb6a",
+    "nota": 1,
+    "texto": "Demora para resolver meu problema pois meu pedido foi roubado dos correios e ainda hoje espero alguma solução mais se parece que resolver com o cliente vai ser uma das últimas prioridade...estou agua"
+   },
+   {
+    "id": "Rac308d6fdcf08ac1",
+    "review_id": "4589b661245306b0f4ce2ee972bbf1ab",
+    "order_id": "518ca81bf7a1b719e32d6847b6afff85",
+    "nota": 1,
+    "texto": "Tive problemas com a entrega. E ainda não mandaram todos os produtos!"
+   },
+   {
+    "id": "Rc643ace9e003a7e1",
+    "review_id": "8edf7fb0249ccbee18ac0e6a261440dc",
+    "order_id": "13f48b228960c77c8ebeef615e898f32",
+    "nota": 2,
+    "texto": "Como podem mandar um produto errado ? Não existe conferências? Loja falha"
+   },
+   {
+    "id": "R3379f931d24fedf3",
+    "review_id": "8831f162e90713593ded7143de3dac62",
+    "order_id": "03f3b08f9da8df7604b68b2fd5999e9a",
+    "nota": 1,
+    "texto": "Estou há mais de 01 mês esperando a solução do problema conforme atendimento aberto . Quanto tempo mais terei que aguardar ? Tenho que buscar ajuda no procon ou juizados de pequenas causas ??"
+   },
+   {
+    "id": "Rb3cf9dedb98ddf24",
+    "review_id": "6396422a1d5d23cfc76ae3efb36b5e81",
+    "order_id": "91663de20f19686d62e4dbc0087fcf62",
+    "nota": 1,
+    "texto": "Disseram q o produto tinha em estoque e depois da compra não tinha mais o produto. O que acarretou transtorno e um enorme incômodo para mim."
+   },
+   {
+    "id": "R193951ac1e2f8f34",
+    "review_id": "84775964cfaf2e4fa80f8657d4cdede8",
+    "order_id": "91be51c856a90d7efe86cf9d082d6ae3",
+    "nota": 1,
+    "texto": "Problemas — Entregaram apenas um produto dos quatro itens do pedido... Quero o restante do pedido... Cadê?"
+   },
+   {
+    "id": "R89ecc5af1b35e4fb",
+    "review_id": "0d592da0b11f266efd97a16956ff6417",
+    "order_id": "e58b8168894c93cf61d36c90775acd85",
+    "nota": 1,
+    "texto": "compra efetuada,debito autorizado ,pedido cancelado sem explicações.Extrema falta de respeito e consideração com os clientes."
+   },
+   {
+    "id": "Rc08d9caf05bc888d",
+    "review_id": "42a3a3e2b79465364e24f6f4c642bc23",
+    "order_id": "62b22cf8987a8a48d638c4bcaf7024ce",
+    "nota": 1,
+    "texto": "Em partes — Sou cliente há anos, porém sempre há divergências e problemas na entrega, consta como produto entregue, porém foi entregue apenas 1 produto, aguardo solução!"
+   },
+   {
+    "id": "R41f838781ab51e8d",
+    "review_id": "986ab1a30d3177315ed0f6433996eabb",
+    "order_id": "64439b9234594e291aa9a30c226f257e",
+    "nota": 1,
+    "texto": "Respeitem mais os cliente — Vcs são todos enrolados não teem respeito com p cliente até hoje meu produto não chegou só sabem mentir entregar que é bom nada mais de 20 dias e não me entregaram nada"
+   }
+  ]
+ },
+ {
+  "pergunta": "Quais aspectos da experiência de compra são mais elogiados?",
+  "notas": [
+   4,
+   5
+  ],
+  "status": "respondido",
+  "achados": [
+   {
+    "texto": "Clientes apreciam a experiência de compra",
+    "fontes": [
+     {
+      "id": "Rb620e9dd54944635",
+      "trecho": "Adorei a experiência de compra"
+     }
+    ]
+   },
+   {
+    "texto": "A experiência de compra é considerada excelente por alguns clientes",
+    "fontes": [
+     {
+      "id": "R07dd4522479a8895",
+      "trecho": "excelente experiência de compra. Obrigado"
+     },
+     {
+      "id": "R8673a0903b4f648b",
+      "trecho": "A experiência da compra foi muito satisfatória."
+     }
+    ]
+   },
+   {
+    "texto": "Acompanhar o processo de compra é um ponto positivo",
+    "fontes": [
+     {
+      "id": "Re0f19b967ced1c52",
+      "trecho": "Gostei da experiência — Primeira vez que compro pela loja virtual e não me arrependo. Chegou no prazo."
+     },
+     {
+      "id": "Rc34eaf654d0e137a",
+      "trecho": "bom serviço — Satisfatória, é a palavra que define minha experiência de compra com essa loja. obrigado pelo atendimento."
+     }
+    ]
+   }
+  ],
+  "evidencias": [
+   {
+    "id": "Rb620e9dd54944635",
+    "review_id": "0d65bf6c54e217b5ba5d38b2f4edfd0d",
+    "order_id": "e73242af72f21b83ed57aeb572c4f62c",
+    "nota": 5,
+    "texto": "Adorei a experiência de compra"
+   },
+   {
+    "id": "R07dd4522479a8895",
+    "review_id": "52300a5e6997431d0597e820015ec8ff",
+    "order_id": "74f04ddd0bd65a396c7210db1e0d1259",
+    "nota": 5,
+    "texto": "excelente experiência de compra. Obrigado"
+   },
+   {
+    "id": "R8673a0903b4f648b",
+    "review_id": "d616c8b2fc1e9b6e150b77e78967a4ea",
+    "order_id": "1da5abde88d474271f7a8d3dc9206c6a",
+    "nota": 5,
+    "texto": "A experiência da compra foi muito satisfatória."
+   },
+   {
+    "id": "Re0f19b967ced1c52",
+    "review_id": "f243d526bec037fe86c0606361fda1fe",
+    "order_id": "9075ecab41fdbe2edaae75cfb6cb09b2",
+    "nota": 5,
+    "texto": "Gostei da experiência — Primeira vez que compro pela loja virtual e não me arrependo. Chegou no prazo."
+   },
+   {
+    "id": "Re7a623ca6631447a",
+    "review_id": "e25cd5d1b87ed4de8b8bf4855588452d",
+    "order_id": "8a24246c79463794ce357f7adc2eb5dc",
+    "nota": 5,
+    "texto": "Ainda não testei o produto, mas a experiência de realizar a compra foi muito boa.. Não conheço nenhum ecommerce q forneça a mesma experiência"
+   },
+   {
+    "id": "Rc34eaf654d0e137a",
+    "review_id": "eebfdf7cf3787d9fac235a1faf1c4323",
+    "order_id": "a35f08311f3c3ceb67be9ff5c1828886",
+    "nota": 5,
+    "texto": "bom serviço — Satisfatória, é a palavra que define minha experiência de compra com essa loja. obrigado pelo atendimento. Pode atuar no mercado com esse nível de compromisso."
+   },
+   {
+    "id": "R2441b634803c12e1",
+    "review_id": "715d3f3f7ef4c0d9dc0e8fc2b7d64d3c",
+    "order_id": "a909c24a30d5a05204ecb7ef3f11e321",
+    "nota": 5,
+    "texto": "Com relação à compra e entrega, só tenho a elogiar. Muito obrigada!"
+   },
+   {
+    "id": "R9060679d3df10f3e",
+    "review_id": "42f988880279581eb91cb07c682988a9",
+    "order_id": "b4569b2bb5498e383b5e2bc4065a2a41",
+    "nota": 5,
+    "texto": "Adorei a compra. Farei mais compras futuramente. Com certeza."
+   },
+   {
+    "id": "Ree7153d7e310d839",
+    "review_id": "92cad777ca11c6bd78a123c70efc0062",
+    "order_id": "fe3f10a6837f308dee1e4be3f7f055b9",
+    "nota": 5,
+    "texto": "Gostei muito do produto e da experiência de compra do baratheon.."
+   },
+   {
+    "id": "R259797cf04b3aa4c",
+    "review_id": "e9fcab2295bc5c53d5c42c8f5ce3ad7f",
+    "order_id": "6af3d9ab67bbedd3ca2c43eb08be0f91",
+    "nota": 5,
+    "texto": "Lojas ótimas e de confiança. Recomendo sim. Compro a anos e é de confiança. Obrigada pelo atendimentos e a atenção."
+   },
+   {
+    "id": "R764b9a50c42b2cdc",
+    "review_id": "71b0927337e42e19d498bdd598e46029",
+    "order_id": "5ebe913dc009bb2798496dd85fc352bc",
+    "nota": 5,
+    "texto": "Entrega — Foi Poditiva a experiência de compra."
+   },
+   {
+    "id": "R4dc26f79560599b9",
+    "review_id": "07a4c0fd1d3bc16284492825bdd62bff",
+    "order_id": "7b78cc6982a3e84c736e54249ed7612c",
+    "nota": 5,
+    "texto": "Elogio — Entrega bem antes do prazo. Produto de excelente qualidade. Recomendo o produto e a loja."
+   },
+   {
+    "id": "R07c296281af6d141",
+    "review_id": "a7c092de936e6705ff94f2e5b30977ad",
+    "order_id": "cae7f688f0b9d0434704105de18ae326",
+    "nota": 5,
+    "texto": "Amei a experiência."
+   },
+   {
+    "id": "R3d2ee90d73c2f602",
+    "review_id": "10b46c399d03fa3b754b8d4a6108ddf5",
+    "order_id": "99db47a6842959e2064fb56a7b4c91e0",
+    "nota": 5,
+    "texto": "Tudo Certo!Satisfeita — Gostei da experiência o produto conforme o anunciado, bonito as medições corretas. Muito satisfeita."
+   },
+   {
+    "id": "Ree3656f917c37bab",
+    "review_id": "3cc0bb4953b4424aceb2bdd08d80c727",
+    "order_id": "9eb4c52cf0399fb41b3e537d6acf99e0",
+    "nota": 5,
+    "texto": "Muito bom muito antes do prazo eu recebi a mercadoria. Breve comprarei mais produtos muito bom o comprometimento de vcs ao cliente. Meus parabéns!!"
+   },
+   {
+    "id": "Rd719615f7d057ef9",
+    "review_id": "1c57a42420ea994d64af6504fb49f371",
+    "order_id": "aa9113495d5498b01ea4a235c64f2849",
+    "nota": 5,
+    "texto": "Efetuei a compra. Pude acompanhar todo o processo. Excelente trabalho. Produto excelente. Parabéns"
+   }
+  ]
+ },
+ {
+  "pergunta": "Qual era a margem de lucro da Olist?",
+  "notas": [
+   1,
+   5
+  ],
+  "status": "insuficiente",
+  "achados": [],
+  "evidencias": []
+ },
+ {
+  "pergunta": "Qual é a capital da Noruega?",
+  "notas": [
+   1,
+   5
+  ],
+  "status": "insuficiente",
+  "achados": [],
+  "evidencias": []
+ },
+ {
+  "pergunta": "Como fazer um bolo de chocolate?",
+  "notas": [
+   1,
+   5
+  ],
+  "status": "insuficiente",
+  "achados": [],
+  "evidencias": [
+   {
+    "id": "Ra241568a9752f0e3",
+    "review_id": "2e57e472d7b0284e73821af34ece8001",
+    "order_id": "9782739e52d8ca75167c63bcfd4db9bd",
+    "nota": 4,
+    "texto": "Pedi de Baunilha e recebi de CHOCOLATE"
+   },
+   {
+    "id": "Rc3aed8740d79d715",
+    "review_id": "c68afdda46cd9f4781cdc920bec2f32d",
+    "order_id": "7d7b903bbd7d3b762ad60115c30185f2",
+    "nota": 4,
+    "texto": "Produto bom, embora o sabor, nao tive como esvolher , nao gosto de chocolate. Entrega rapida"
+   },
+   {
+    "id": "R0fd3e2f847ebc27b",
+    "review_id": "7febd027dc1b227f94e4762d4f7f0a5d",
+    "order_id": "446965992096e4620bf30d170edc3f9e",
+    "nota": 4,
+    "texto": "COMO FAÇO PRA FAZER A TROCA ..PRODUTO ERRADO"
+   },
+   {
+    "id": "R331e0d137dfddaf6",
+    "review_id": "a34f8fc3be392848f817ed9cb563ed96",
+    "order_id": "44a10a741d51010c1440fc7337b5ff6e",
+    "nota": 3,
+    "texto": "Foi tudo perfeito, tirando o sabor do produto que pedi baunilha e veio chocolate. Mas como não ligo mto pra isso e o sabor não tem tanta importância pra mim, nem liguei."
+   },
+   {
+    "id": "R160125f05ef2bf87",
+    "review_id": "c4b17a374b71539eb360fe5baaa9a10e",
+    "order_id": "0760a852e4e9d89eb77bf631eaaf1c84",
+    "nota": 3,
+    "texto": "bolo fake — Gostei do produto, porem fiquei preocupada não chegasse a tempo pois não foi atualizado o status da compra chegou no ultimo dia do prazo."
+   },
+   {
+    "id": "Rb19b053a13ca3579",
+    "review_id": "5fd862178b90a75046032500316cb975",
+    "order_id": "7056ed3b6f11b379db7915d1f6a69ad9",
+    "nota": 5,
+    "texto": "Perfeito . Comprei não para bolo e sim para fazer sabao de roupas . Bem resistente o produto . Recomendo"
+   },
+   {
+    "id": "Rf4dd0d87a89324f1",
+    "review_id": "7ec9f5da80457bd8981e0638573a49fe",
+    "order_id": "f88efafe68a38b479def426923166490",
+    "nota": 3,
+    "texto": "FOI CANCELADO. COMO FAÇO PARA FAZER OUTRO PEDIDO CO O VALOR PAGO ?"
+   },
+   {
+    "id": "Rb506ab38e65b55fa",
+    "review_id": "b5eda55be2a355f7e63e606760e28872",
+    "order_id": "fb6a01b94b2f20833eb7593ea1a54a8f",
+    "nota": 1,
+    "texto": "Veio riscada, botão quebrado, fio descascado e o pior se é uma derretedeira de chocolate para lifar a temperatura tem que ser a partir de 20°C e essa liga a partir de 50°C. Isso queima não derrete."
+   }
+  ]
+ },
+ {
+  "pergunta": "Quem ganhou a Copa do Mundo de 2014?",
+  "notas": [
+   1,
+   5
+  ],
+  "status": "insuficiente",
+  "achados": [],
+  "evidencias": []
+ }
+]

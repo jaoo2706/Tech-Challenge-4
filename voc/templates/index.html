@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voice of Customer | Tech Challenge 4</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-icon" aria-hidden="true">◈</span><div>Voice of Customer<small>TECH CHALLENGE · FASE 4</small></div></div>
+    <nav aria-label="Modos de análise">
+      <button class="nav active" data-mode="investigar" aria-pressed="true">Investigar avaliações</button>
+      <button class="nav" data-mode="frequencia" aria-pressed="false">Frequência de temas</button>
+    </nav>
+    <form id="filters">
+      <h2>Recorte da análise</h2>
+      <label for="rating">Nota da avaliação</label>
+      <select id="rating"><option value="1,5">Todas as notas</option><option value="1,2">Baixas · 1 e 2</option><option value="3,3">Intermediária · 3</option><option value="4,5">Altas · 4 e 5</option></select>
+      {% if stats.metadados_pedido %}
+      <label for="year">Ano da compra</label>
+      <select id="year"><option value="">Todos os anos</option>{% for year in [2016, 2017, 2018] %}<option>{{ year }}</option>{% endfor %}</select>
+      <label class="check"><input type="checkbox" id="delayed"> Apenas entregas atrasadas</label>
+      {% endif %}
+    </form>
+    <footer>{{ 'Base sintética de demonstração' if demo else 'Fonte: Olist · 2016–2018' }}</footer>
+  </aside>
+
+  <main>
+    <div class="tag">{{ 'DEMONSTRAÇÃO · DADOS SINTÉTICOS' if demo else 'BASE HISTÓRICA DA OLIST' }}</div>
+    <h1 id="heading">O que os clientes relatam?</h1>
+    <p id="subtitle">Faça uma pergunta e confira as avaliações que sustentam a resposta.</p>
+    <section class="metrics" aria-label="Base de conhecimento">
+      <div><span>Avaliações indexadas</span><strong>{{ stats.indexadas }}</strong></div>
+      <div><span>Pedidos com texto</span><strong>{{ stats.pedidos_com_texto }}</strong></div>
+      <div><span>Busca vetorial</span><strong>{{ 'Multilingual E5' if backend == 'e5' else 'LSA' }}</strong></div>
+    </section>
+    <form id="query" class="panel">
+      <div id="investigate">
+        <label for="question">Pergunta</label>
+        <textarea id="question" maxlength="500" rows="2" placeholder="Ex.: Que problemas os clientes relatam sobre a entrega?"></textarea>
+        <div class="examples" aria-label="Perguntas de exemplo">
+          <button type="button" data-example="O que os clientes relatam sobre atrasos na entrega?">Atrasos na entrega</button>
+          <button type="button" data-example="O que os clientes elogiam sobre a qualidade dos produtos?">Qualidade dos produtos</button>
+          <button type="button" data-example="Quais avaliações mencionam a garantia estendida de cinco anos para celulares?">Sem evidência na base</button>
+          <button type="button" data-example="Qual era a margem de lucro da Olist?">Fora do escopo</button>
+        </div>
+      </div>
+      <div id="frequency" hidden>
+        <label for="theme">Grupo de temas</label>
+        <select id="theme"><option value="todos">Todos</option><option value="reclamações">Reclamações</option><option value="elogios">Elogios</option></select>
+        <p>As contagens usam menções explícitas em todos os pedidos com texto no recorte.</p>
+      </div>
+      <button id="submit" type="submit" class="primary">Analisar avaliações</button>
+    </form>
+    <p id="status" role="status" aria-live="polite"></p>
+    <section id="results" aria-label="Resultado"></section>
+  </main>
+</div>
+</body>
+</html>

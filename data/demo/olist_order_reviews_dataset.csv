@@ -1,0 +1,26 @@
+review_id,order_id,review_score,review_comment_title,review_comment_message,review_creation_date
+SINT-D01,D01,1,,Meu pedido chegou com seis dias de atraso. O rastreio ficou parado por vários dias.,2018-05-25
+SINT-D02,D02,2,,O pacote chegou atrasado e perdi a data do aniversário.,2018-05-25
+SINT-D03,D03,1,,Entrega com atraso de doze dias. O atendimento não tinha atualização do rastreamento.,2018-05-25
+SINT-D04,D04,2,,Atraso na entrega apesar de o produto ter chegado intacto.,2018-05-25
+SINT-D05,D05,1,,Não recebi o pedido. No sistema constava como entregue.,2018-05-25
+SINT-D06,D06,1,,O pedido não chegou. Já passou o prazo de entrega.,2018-05-25
+SINT-D07,D07,2,,"Recebi um produto errado, de cor diferente da que comprei.",2018-05-25
+SINT-D08,D08,1,,Veio um item errado. Pedi um modelo e recebi outro.,2018-05-25
+SINT-D09,D09,1,,O copo veio quebrado e a caixa estava amassada.,2018-05-25
+SINT-D10,D10,2,,O produto apresentou defeito na primeira vez que liguei.,2018-05-25
+SINT-D11,D11,2,,O acabamento veio danificado. A embalagem estava rasgada.,2018-05-25
+SINT-D12,D12,5,,Entrega rápida e encomenda bem embalada.,2018-05-25
+SINT-D13,D13,5,,Chegou antes do prazo e o produto tem boa qualidade.,2018-05-25
+SINT-D14,D14,4,,"Produto de ótima qualidade, acabamento bem feito.",2018-05-25
+SINT-D15,D15,5,,Excelente qualidade do tecido. O tamanho ficou perfeito.,2018-05-25
+SINT-D16,D16,5,,Achei o material de boa qualidade. O produto é resistente.,2018-05-25
+SINT-D17,D17,5,,O pedido chegou rápido. Gostei da proteção da embalagem.,2018-05-25
+SINT-D18,D18,4,,Bom atendimento. A equipe tirou minhas dúvidas sobre a compra.,2018-05-25
+SINT-D19,D19,5,,"Atendimento excelente, responderam minha pergunta no mesmo dia.",2018-05-25
+SINT-D20,D20,3,,"O tamanho estava correto, mas o acabamento podia ser melhor.",2018-05-25
+SINT-D21,D21,3,,"Gostei da compra, mas a caixa veio aberta.",2018-05-25
+SINT-D22,D22,2,,O prazo de entrega foi alterado e o pacote chegou depois do prazo.,2018-05-25
+SINT-D23,D23,5,,Boa qualidade das costuras e acabamento muito bonito.,2018-05-25
+SINT-D24,D24,5,,"Tudo certo com a compra, o pacote chegou completo.",2018-05-25
+SINT-vazio,D25,4,,,2018-05-25

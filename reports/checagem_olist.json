@@ -1,0 +1,176 @@
+{
+  "backend": "e5",
+  "modelo": "gemma3:4b",
+  "indexadas": 42555,
+  "casos": [
+    {
+      "pergunta": "Quais avaliações mencionam que o pedido não chegou?",
+      "notas": [
+        1,
+        2
+      ],
+      "esperado": "respondido",
+      "status": "respondido",
+      "achados": [
+        {
+          "texto": "O pedido não foi entregue",
+          "fontes": [
+            {
+              "id": "R4b43a90c0c006ea0",
+              "trecho": "O pedido não foi entregue"
+            }
+          ]
+        },
+        {
+          "texto": "Meu pedido não foi entregue",
+          "fontes": [
+            {
+              "id": "R5c718387ff874647",
+              "trecho": "o pedido nao foi entregue"
+            },
+            {
+              "id": "R8385b5a05767c203",
+              "trecho": "Meu pedido ainda não foi — Meu pedido não foi entregue"
+            }
+          ]
+        },
+        {
+          "texto": "MEU PEDIDO NÃO CHEGOU!",
+          "fontes": [
+            {
+              "id": "Rf6b4015c7a544de2",
+              "trecho": "MEU PEDIDO NÃO CHEGOU"
+            }
+          ]
+        }
+      ],
+      "citacoes_literais": true,
+      "passou": true,
+      "ms": 6471
+    },
+    {
+      "pergunta": "Quais são os principais problemas relatados pelos clientes?",
+      "notas": [
+        1,
+        2
+      ],
+      "esperado": "respondido",
+      "status": "respondido",
+      "achados": [
+        {
+          "texto": "Clientes relatam atraso na entrega do produto",
+          "fontes": [
+            {
+              "id": "R911c14aca233c050",
+              "trecho": "Produto mais que passou do prazo de entregar, tento resolver o problema com a empresa e não consigo falar com ninguém"
+            },
+            {
+              "id": "R3c0f7584c2d6594a",
+              "trecho": "Total falta de respeito com o consumidor. Além de não realizar a entrega que tinha um prazo enorme, ao longo do período, pedi mais detalhes do status para acompanhar o processo e nunca ligaram"
+            }
+          ]
+        },
+        {
+          "texto": "Clientes relatam a falta de comunicação e dificuldade em resolver problemas",
+          "fontes": [
+            {
+              "id": "R5a3eeebbc3f6f268",
+              "trecho": "Porque vocês não ligam pra sabe? vocês estão malucos por dinheiro, não querem atender os clientes,o que ta acontecendo? pedi mil vezes pra não entregar a merda do produto e vocês entregaram"
+            },
+            {
+              "id": "R6083b236bd4bdd19",
+              "trecho": "Oque aconteceu com o meu pedido ? Me mandaram uma peça totalmente diferente da qual eu comprei ; nao consigo falar com ninguem nem por tel nem por email; lannister como vamoresolver isso"
+            },
+            {
+              "id": "R3379f931d24fedf3",
+              "trecho": "Estou há mais de 01 mês esperando a solução do problema conforme atendimento aberto . Quanto tempo mais terei que aguardar ? Tenho que buscar ajuda no procon ou juizados de pequenas causas"
+            }
+          ]
+        }
+      ],
+      "citacoes_literais": true,
+      "passou": true,
+      "ms": 9733
+    },
+    {
+      "pergunta": "O que os clientes elogiam sobre a qualidade dos produtos?",
+      "notas": [
+        4,
+        5
+      ],
+      "esperado": "respondido",
+      "status": "respondido",
+      "achados": [
+        {
+          "texto": "Os clientes mencionam que os produtos são de qualidade.",
+          "fontes": [
+            {
+              "id": "R452a4fd134dd1c41",
+              "trecho": "produtos de qualidade"
+            }
+          ]
+        },
+        {
+          "texto": "Alguns clientes relatam que a qualidade dos produtos é excelente.",
+          "fontes": [
+            {
+              "id": "Rae7a547af1bc4a2e",
+              "trecho": "qualidade e agilidade"
+            },
+            {
+              "id": "R4dc26f79560599b9",
+              "trecho": "Produto de excelente qualidade"
+            },
+            {
+              "id": "R3d220f05925da0a7",
+              "trecho": "a qualidade dos produtos muito boa"
+            }
+          ]
+        }
+      ],
+      "citacoes_literais": true,
+      "passou": true,
+      "ms": 5430
+    },
+    {
+      "pergunta": "Quais avaliações mencionam a garantia estendida de cinco anos para celulares?",
+      "notas": [
+        1,
+        5
+      ],
+      "esperado": "insuficiente",
+      "status": "insuficiente",
+      "achados": [],
+      "citacoes_literais": true,
+      "passou": true,
+      "ms": 2096
+    },
+    {
+      "pergunta": "O que os clientes relatam sobre entregas por drones?",
+      "notas": [
+        1,
+        5
+      ],
+      "esperado": "insuficiente",
+      "status": "insuficiente",
+      "achados": [],
+      "citacoes_literais": true,
+      "passou": true,
+      "ms": 2235
+    },
+    {
+      "pergunta": "Qual era a margem de lucro da Olist?",
+      "notas": [
+        1,
+        5
+      ],
+      "esperado": "insuficiente",
+      "status": "insuficiente",
+      "achados": [],
+      "citacoes_literais": true,
+      "passou": true,
+      "ms": 6
+    }
+  ],
+  "aprovados": 6
+}

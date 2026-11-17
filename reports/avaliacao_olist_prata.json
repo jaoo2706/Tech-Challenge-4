@@ -1,0 +1,235 @@
+{
+  "k": 8,
+  "backend": "e5",
+  "rotulo": "prata (regex do tema, sem negação)",
+  "estrategias": {
+    "lexical": {
+      "precisao_media": 0.512,
+      "mrr": 0.717,
+      "casos": [
+        {
+          "pergunta": "Quais avaliações mencionam que o pedido não chegou?",
+          "tema": "Pedido não recebido",
+          "recuperadas": 8,
+          "precisao": 0.75,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "O que os clientes relatam sobre atrasos na entrega?",
+          "tema": "Atraso mencionado",
+          "recuperadas": 8,
+          "precisao": 0.5,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais clientes receberam um produto diferente do pedido?",
+          "tema": "Produto errado",
+          "recuperadas": 8,
+          "precisao": 0.375,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais reclamações falam de produtos quebrados ou com defeito?",
+          "tema": "Dano ou defeito",
+          "recuperadas": 8,
+          "precisao": 1.0,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais clientes pedem troca, devolução ou reembolso?",
+          "tema": "Troca ou reembolso",
+          "recuperadas": 8,
+          "precisao": 1.0,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais clientes não receberam resposta ou contato da loja?",
+          "tema": "Falta de contato ou resposta",
+          "recuperadas": 8,
+          "precisao": 0.125,
+          "rr": 0.16666666666666666
+        },
+        {
+          "pergunta": "Quais avaliações elogiam a rapidez da entrega?",
+          "tema": "Entrega rápida",
+          "recuperadas": 8,
+          "precisao": 0.0,
+          "rr": 0.0
+        },
+        {
+          "pergunta": "O que os clientes elogiam sobre a qualidade dos produtos?",
+          "tema": "Qualidade elogiada",
+          "recuperadas": 8,
+          "precisao": 0.0,
+          "rr": 0.0
+        },
+        {
+          "pergunta": "Quais avaliações elogiam o atendimento?",
+          "tema": "Atendimento elogiado",
+          "recuperadas": 8,
+          "precisao": 0.75,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais clientes recomendam a loja?",
+          "tema": "Recomendação",
+          "recuperadas": 8,
+          "precisao": 0.625,
+          "rr": 1.0
+        }
+      ]
+    },
+    "semantic": {
+      "precisao_media": 0.5,
+      "mrr": 0.633,
+      "casos": [
+        {
+          "pergunta": "Quais avaliações mencionam que o pedido não chegou?",
+          "tema": "Pedido não recebido",
+          "recuperadas": 8,
+          "precisao": 0.875,
+          "rr": 0.5
+        },
+        {
+          "pergunta": "O que os clientes relatam sobre atrasos na entrega?",
+          "tema": "Atraso mencionado",
+          "recuperadas": 8,
+          "precisao": 0.75,
+          "rr": 0.5
+        },
+        {
+          "pergunta": "Quais clientes receberam um produto diferente do pedido?",
+          "tema": "Produto errado",
+          "recuperadas": 8,
+          "precisao": 0.125,
+          "rr": 0.5
+        },
+        {
+          "pergunta": "Quais reclamações falam de produtos quebrados ou com defeito?",
+          "tema": "Dano ou defeito",
+          "recuperadas": 8,
+          "precisao": 0.75,
+          "rr": 0.5
+        },
+        {
+          "pergunta": "Quais clientes pedem troca, devolução ou reembolso?",
+          "tema": "Troca ou reembolso",
+          "recuperadas": 8,
+          "precisao": 0.5,
+          "rr": 0.3333333333333333
+        },
+        {
+          "pergunta": "Quais clientes não receberam resposta ou contato da loja?",
+          "tema": "Falta de contato ou resposta",
+          "recuperadas": 8,
+          "precisao": 0.25,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais avaliações elogiam a rapidez da entrega?",
+          "tema": "Entrega rápida",
+          "recuperadas": 8,
+          "precisao": 0.5,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "O que os clientes elogiam sobre a qualidade dos produtos?",
+          "tema": "Qualidade elogiada",
+          "recuperadas": 8,
+          "precisao": 0.25,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais avaliações elogiam o atendimento?",
+          "tema": "Atendimento elogiado",
+          "recuperadas": 8,
+          "precisao": 0.5,
+          "rr": 0.5
+        },
+        {
+          "pergunta": "Quais clientes recomendam a loja?",
+          "tema": "Recomendação",
+          "recuperadas": 8,
+          "precisao": 0.5,
+          "rr": 0.5
+        }
+      ]
+    },
+    "hybrid": {
+      "precisao_media": 0.562,
+      "mrr": 0.833,
+      "casos": [
+        {
+          "pergunta": "Quais avaliações mencionam que o pedido não chegou?",
+          "tema": "Pedido não recebido",
+          "recuperadas": 8,
+          "precisao": 0.75,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "O que os clientes relatam sobre atrasos na entrega?",
+          "tema": "Atraso mencionado",
+          "recuperadas": 8,
+          "precisao": 0.625,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais clientes receberam um produto diferente do pedido?",
+          "tema": "Produto errado",
+          "recuperadas": 8,
+          "precisao": 0.25,
+          "rr": 0.5
+        },
+        {
+          "pergunta": "Quais reclamações falam de produtos quebrados ou com defeito?",
+          "tema": "Dano ou defeito",
+          "recuperadas": 8,
+          "precisao": 0.875,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais clientes pedem troca, devolução ou reembolso?",
+          "tema": "Troca ou reembolso",
+          "recuperadas": 8,
+          "precisao": 1.0,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais clientes não receberam resposta ou contato da loja?",
+          "tema": "Falta de contato ou resposta",
+          "recuperadas": 8,
+          "precisao": 0.125,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais avaliações elogiam a rapidez da entrega?",
+          "tema": "Entrega rápida",
+          "recuperadas": 8,
+          "precisao": 0.25,
+          "rr": 0.5
+        },
+        {
+          "pergunta": "O que os clientes elogiam sobre a qualidade dos produtos?",
+          "tema": "Qualidade elogiada",
+          "recuperadas": 8,
+          "precisao": 0.25,
+          "rr": 0.3333333333333333
+        },
+        {
+          "pergunta": "Quais avaliações elogiam o atendimento?",
+          "tema": "Atendimento elogiado",
+          "recuperadas": 8,
+          "precisao": 0.75,
+          "rr": 1.0
+        },
+        {
+          "pergunta": "Quais clientes recomendam a loja?",
+          "tema": "Recomendação",
+          "recuperadas": 8,
+          "precisao": 0.75,
+          "rr": 1.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,846 @@
+{
+  "backend": "lsa",
+  "demo": true,
+  "k": 5,
+  "estrategias": {
+    "lexical": {
+      "recall_medio": 0.6571428571428571,
+      "mrr": 0.8928571428571429,
+      "fora_escopo_sem_recuperacao": 0,
+      "perguntas_fora_escopo": 4,
+      "casos": [
+        {
+          "pergunta": "O que os clientes relatam sobre atrasos na entrega?",
+          "esperados": [
+            "D01",
+            "D02",
+            "D03",
+            "D04",
+            "D22"
+          ],
+          "recuperados": [
+            "D04",
+            "D10",
+            "D18",
+            "D07",
+            "D12"
+          ],
+          "recall": 0.2,
+          "rr": 1.0,
+          "ms": 0.89
+        },
+        {
+          "pergunta": "Quais avaliações mencionam que o pedido não chegou?",
+          "esperados": [
+            "D05",
+            "D06"
+          ],
+          "recuperados": [
+            "D06",
+            "D05",
+            "D17",
+            "D10",
+            "D07"
+          ],
+          "recall": 1.0,
+          "rr": 1.0,
+          "ms": 0.71
+        },
+        {
+          "pergunta": "Quais consumidores relatam ter recebido um produto errado?",
+          "esperados": [
+            "D07",
+            "D08"
+          ],
+          "recuperados": [
+            "D07",
+            "D08",
+            "D04",
+            "D16",
+            "D14"
+          ],
+          "recall": 1.0,
+          "rr": 1.0,
+          "ms": 0.71
+        },
+        {
+          "pergunta": "Que problemas os clientes enfrentaram com produtos quebrados, danificados ou com defeito?",
+          "esperados": [
+            "D09",
+            "D10",
+            "D11"
+          ],
+          "recuperados": [
+            "D10",
+            "D24",
+            "D03",
+            "D01",
+            "D07"
+          ],
+          "recall": 0.3333333333333333,
+          "rr": 1.0,
+          "ms": 0.69
+        },
+        {
+          "pergunta": "Quais avaliações elogiam a rapidez da entrega?",
+          "esperados": [
+            "D12",
+            "D13",
+            "D17"
+          ],
+          "recuperados": [
+            "D17",
+            "D21",
+            "D12",
+            "D07",
+            "D06"
+          ],
+          "recall": 0.6666666666666666,
+          "rr": 1.0,
+          "ms": 0.7
+        },
+        {
+          "pergunta": "O que os clientes elogiam sobre a qualidade dos produtos?",
+          "esperados": [
+            "D13",
+            "D14",
+            "D15",
+            "D16",
+            "D23"
+          ],
+          "recuperados": [
+            "D18",
+            "D10",
+            "D07",
+            "D16",
+            "D14"
+          ],
+          "recall": 0.4,
+          "rr": 0.25,
+          "ms": 0.7
+        },
+        {
+          "pergunta": "O que as avaliações dizem de positivo sobre o atendimento?",
+          "esperados": [
+            "D18",
+            "D19"
+          ],
+          "recuperados": [
+            "D18",
+            "D07",
+            "D03",
+            "D10",
+            "D19"
+          ],
+          "recall": 1.0,
+          "rr": 1.0,
+          "ms": 0.7
+        },
+        {
+          "pergunta": "Qual era a margem de lucro da Olist?",
+          "esperados": [],
+          "recuperados": [
+            "D17",
+            "D07",
+            "D21",
+            "D16",
+            "D14"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.7
+        },
+        {
+          "pergunta": "Qual é a capital da Noruega?",
+          "esperados": [],
+          "recuperados": [
+            "D17",
+            "D21",
+            "D07"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.7
+        },
+        {
+          "pergunta": "Qual foi o custo de cada entrega para o vendedor?",
+          "esperados": [],
+          "recuperados": [
+            "D22",
+            "D06",
+            "D04",
+            "D03",
+            "D12"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.69
+        },
+        {
+          "pergunta": "Quais são as previsões para as vendas no próximo mês?",
+          "esperados": [],
+          "recuperados": [
+            "D05",
+            "D19"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.69
+        }
+      ]
+    },
+    "semantic": {
+      "recall_medio": 0.6571428571428571,
+      "mrr": 0.8928571428571429,
+      "fora_escopo_sem_recuperacao": 0,
+      "perguntas_fora_escopo": 4,
+      "casos": [
+        {
+          "pergunta": "O que os clientes relatam sobre atrasos na entrega?",
+          "esperados": [
+            "D01",
+            "D02",
+            "D03",
+            "D04",
+            "D22"
+          ],
+          "recuperados": [
+            "D04",
+            "D10",
+            "D18",
+            "D07",
+            "D12"
+          ],
+          "recall": 0.2,
+          "rr": 1.0,
+          "ms": 0.72
+        },
+        {
+          "pergunta": "Quais avaliações mencionam que o pedido não chegou?",
+          "esperados": [
+            "D05",
+            "D06"
+          ],
+          "recuperados": [
+            "D06",
+            "D22",
+            "D05",
+            "D17",
+            "D10"
+          ],
+          "recall": 1.0,
+          "rr": 1.0,
+          "ms": 0.73
+        },
+        {
+          "pergunta": "Quais consumidores relatam ter recebido um produto errado?",
+          "esperados": [
+            "D07",
+            "D08"
+          ],
+          "recuperados": [
+            "D07",
+            "D08",
+            "D04"
+          ],
+          "recall": 1.0,
+          "rr": 1.0,
+          "ms": 0.68
+        },
+        {
+          "pergunta": "Que problemas os clientes enfrentaram com produtos quebrados, danificados ou com defeito?",
+          "esperados": [
+            "D09",
+            "D10",
+            "D11"
+          ],
+          "recuperados": [
+            "D10",
+            "D24",
+            "D03",
+            "D01",
+            "D07"
+          ],
+          "recall": 0.3333333333333333,
+          "rr": 1.0,
+          "ms": 0.71
+        },
+        {
+          "pergunta": "Quais avaliações elogiam a rapidez da entrega?",
+          "esperados": [
+            "D12",
+            "D13",
+            "D17"
+          ],
+          "recuperados": [
+            "D17",
+            "D21",
+            "D06",
+            "D12",
+            "D07"
+          ],
+          "recall": 0.6666666666666666,
+          "rr": 1.0,
+          "ms": 0.81
+        },
+        {
+          "pergunta": "O que os clientes elogiam sobre a qualidade dos produtos?",
+          "esperados": [
+            "D13",
+            "D14",
+            "D15",
+            "D16",
+            "D23"
+          ],
+          "recuperados": [
+            "D18",
+            "D10",
+            "D07",
+            "D16",
+            "D14"
+          ],
+          "recall": 0.4,
+          "rr": 0.25,
+          "ms": 0.76
+        },
+        {
+          "pergunta": "O que as avaliações dizem de positivo sobre o atendimento?",
+          "esperados": [
+            "D18",
+            "D19"
+          ],
+          "recuperados": [
+            "D18",
+            "D07",
+            "D03",
+            "D10",
+            "D19"
+          ],
+          "recall": 1.0,
+          "rr": 1.0,
+          "ms": 0.71
+        },
+        {
+          "pergunta": "Qual era a margem de lucro da Olist?",
+          "esperados": [],
+          "recuperados": [
+            "D17",
+            "D07",
+            "D21",
+            "D06",
+            "D14"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.69
+        },
+        {
+          "pergunta": "Qual é a capital da Noruega?",
+          "esperados": [],
+          "recuperados": [
+            "D17",
+            "D21",
+            "D07"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.7
+        },
+        {
+          "pergunta": "Qual foi o custo de cada entrega para o vendedor?",
+          "esperados": [],
+          "recuperados": [
+            "D22",
+            "D06",
+            "D04",
+            "D03",
+            "D12"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.69
+        },
+        {
+          "pergunta": "Quais são as previsões para as vendas no próximo mês?",
+          "esperados": [],
+          "recuperados": [
+            "D05",
+            "D19"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.69
+        }
+      ]
+    },
+    "hybrid": {
+      "recall_medio": 0.6571428571428571,
+      "mrr": 0.8928571428571429,
+      "fora_escopo_sem_recuperacao": 0,
+      "perguntas_fora_escopo": 4,
+      "casos": [
+        {
+          "pergunta": "O que os clientes relatam sobre atrasos na entrega?",
+          "esperados": [
+            "D01",
+            "D02",
+            "D03",
+            "D04",
+            "D22"
+          ],
+          "recuperados": [
+            "D04",
+            "D10",
+            "D18",
+            "D07",
+            "D12"
+          ],
+          "recall": 0.2,
+          "rr": 1.0,
+          "ms": 0.73
+        },
+        {
+          "pergunta": "Quais avaliações mencionam que o pedido não chegou?",
+          "esperados": [
+            "D05",
+            "D06"
+          ],
+          "recuperados": [
+            "D06",
+            "D05",
+            "D17",
+            "D10",
+            "D22"
+          ],
+          "recall": 1.0,
+          "rr": 1.0,
+          "ms": 0.75
+        },
+        {
+          "pergunta": "Quais consumidores relatam ter recebido um produto errado?",
+          "esperados": [
+            "D07",
+            "D08"
+          ],
+          "recuperados": [
+            "D07",
+            "D08",
+            "D04",
+            "D16",
+            "D14"
+          ],
+          "recall": 1.0,
+          "rr": 1.0,
+          "ms": 0.73
+        },
+        {
+          "pergunta": "Que problemas os clientes enfrentaram com produtos quebrados, danificados ou com defeito?",
+          "esperados": [
+            "D09",
+            "D10",
+            "D11"
+          ],
+          "recuperados": [
+            "D10",
+            "D24",
+            "D03",
+            "D01",
+            "D07"
+          ],
+          "recall": 0.3333333333333333,
+          "rr": 1.0,
+          "ms": 0.84
+        },
+        {
+          "pergunta": "Quais avaliações elogiam a rapidez da entrega?",
+          "esperados": [
+            "D12",
+            "D13",
+            "D17"
+          ],
+          "recuperados": [
+            "D17",
+            "D21",
+            "D12",
+            "D06",
+            "D07"
+          ],
+          "recall": 0.6666666666666666,
+          "rr": 1.0,
+          "ms": 0.74
+        },
+        {
+          "pergunta": "O que os clientes elogiam sobre a qualidade dos produtos?",
+          "esperados": [
+            "D13",
+            "D14",
+            "D15",
+            "D16",
+            "D23"
+          ],
+          "recuperados": [
+            "D18",
+            "D10",
+            "D07",
+            "D16",
+            "D14"
+          ],
+          "recall": 0.4,
+          "rr": 0.25,
+          "ms": 0.74
+        },
+        {
+          "pergunta": "O que as avaliações dizem de positivo sobre o atendimento?",
+          "esperados": [
+            "D18",
+            "D19"
+          ],
+          "recuperados": [
+            "D18",
+            "D07",
+            "D03",
+            "D10",
+            "D19"
+          ],
+          "recall": 1.0,
+          "rr": 1.0,
+          "ms": 0.74
+        },
+        {
+          "pergunta": "Qual era a margem de lucro da Olist?",
+          "esperados": [],
+          "recuperados": [
+            "D17",
+            "D07",
+            "D21",
+            "D06",
+            "D16"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.73
+        },
+        {
+          "pergunta": "Qual é a capital da Noruega?",
+          "esperados": [],
+          "recuperados": [
+            "D17",
+            "D21",
+            "D07"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.74
+        },
+        {
+          "pergunta": "Qual foi o custo de cada entrega para o vendedor?",
+          "esperados": [],
+          "recuperados": [
+            "D22",
+            "D06",
+            "D04",
+            "D03",
+            "D12"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.73
+        },
+        {
+          "pergunta": "Quais são as previsões para as vendas no próximo mês?",
+          "esperados": [],
+          "recuperados": [
+            "D05",
+            "D19"
+          ],
+          "recall": null,
+          "rr": null,
+          "ms": 0.73
+        }
+      ]
+    }
+  },
+  "geracao": [
+    {
+      "pergunta": "O que os clientes relatam sobre atrasos na entrega?",
+      "esperados": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D22"
+      ],
+      "status": "respondido",
+      "pedidos_citados": [
+        "D04",
+        "D06",
+        "D22"
+      ],
+      "achados": [
+        {
+          "texto": "O pedido não chegou. Já passou o prazo de entrega.",
+          "fontes": [
+            {
+              "id": "Ra8dc51258dff38c2",
+              "trecho": "O pedido não chegou."
+            }
+          ]
+        },
+        {
+          "texto": "O prazo de entrega foi alterado e o pacote chegou depois do prazo.",
+          "fontes": [
+            {
+              "id": "R33df74283cf5850f",
+              "trecho": "O prazo de entrega foi alterado e o pacote chegou depois do prazo."
+            }
+          ]
+        },
+        {
+          "texto": "Atraso na entrega apesar de o produto ter chegado intacto.",
+          "fontes": [
+            {
+              "id": "Rb8818cb20eecfe9f",
+              "trecho": "Atraso na entrega apesar de o produto ter chegado intacto."
+            }
+          ]
+        }
+      ],
+      "ms": 5396
+    },
+    {
+      "pergunta": "Quais avaliações mencionam que o pedido não chegou?",
+      "esperados": [
+        "D05",
+        "D06"
+      ],
+      "status": "respondido",
+      "pedidos_citados": [
+        "D05",
+        "D06",
+        "D22"
+      ],
+      "achados": [
+        {
+          "texto": "O pedido não chegou. Já passou o prazo de entrega.",
+          "fontes": [
+            {
+              "id": "Ra8dc51258dff38c2",
+              "trecho": "O pedido não chegou."
+            }
+          ]
+        },
+        {
+          "texto": "Não recebi o pedido. No sistema constava como entregue.",
+          "fontes": [
+            {
+              "id": "Refb4963f432438b0",
+              "trecho": "Não recebi o pedido."
+            }
+          ]
+        },
+        {
+          "texto": "O prazo de entrega foi alterado e o pacote chegou depois do prazo.",
+          "fontes": [
+            {
+              "id": "R33df74283cf5850f",
+              "trecho": "O prazo de entrega foi alterado"
+            }
+          ]
+        }
+      ],
+      "ms": 6523
+    },
+    {
+      "pergunta": "Quais consumidores relatam ter recebido um produto errado?",
+      "esperados": [
+        "D07",
+        "D08"
+      ],
+      "status": "respondido",
+      "pedidos_citados": [
+        "D07",
+        "D08"
+      ],
+      "achados": [
+        {
+          "texto": "Um cliente relatou ter recebido um produto de cor diferente da que comprou.",
+          "fontes": [
+            {
+              "id": "Ra4581ec42d2d9afc",
+              "trecho": "Recebi um produto errado, de cor diferente da que comprei."
+            }
+          ]
+        },
+        {
+          "texto": "Um cliente informou ter recebido um item errado, especificando que pediu um modelo e recebeu outro.",
+          "fontes": [
+            {
+              "id": "Re5df60d7786b8fb4",
+              "trecho": "Veio um item errado. Pedi um modelo e recebi outro."
+            }
+          ]
+        }
+      ],
+      "ms": 3775
+    },
+    {
+      "pergunta": "Que problemas os clientes enfrentaram com produtos quebrados, danificados ou com defeito?",
+      "esperados": [
+        "D09",
+        "D10",
+        "D11"
+      ],
+      "status": "respondido",
+      "pedidos_citados": [
+        "D10"
+      ],
+      "achados": [
+        {
+          "texto": "Um cliente relatou que o produto apresentou defeito na primeira vez que ligou.",
+          "fontes": [
+            {
+              "id": "R9efcfdf1069ca61c",
+              "trecho": "O produto apresentou defeito na primeira vez que liguei."
+            }
+          ]
+        }
+      ],
+      "ms": 2573
+    },
+    {
+      "pergunta": "Quais avaliações elogiam a rapidez da entrega?",
+      "esperados": [
+        "D12",
+        "D13",
+        "D17"
+      ],
+      "status": "respondido",
+      "pedidos_citados": [
+        "D12"
+      ],
+      "achados": [
+        {
+          "texto": "O cliente relata que a entrega foi rápida e o produto bem embalado.",
+          "fontes": [
+            {
+              "id": "R5cb095db15bb0c39",
+              "trecho": "Entrega rápida e encomenda bem embalada."
+            }
+          ]
+        }
+      ],
+      "ms": 3186
+    },
+    {
+      "pergunta": "O que os clientes elogiam sobre a qualidade dos produtos?",
+      "esperados": [
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D23"
+      ],
+      "status": "respondido",
+      "pedidos_citados": [
+        "D14",
+        "D15",
+        "D16"
+      ],
+      "achados": [
+        {
+          "texto": "O material é considerado de boa qualidade.",
+          "fontes": [
+            {
+              "id": "Rb1310770a291851d",
+              "trecho": "Achei o material de boa qualidade."
+            }
+          ]
+        },
+        {
+          "texto": "O produto possui um acabamento bem feito.",
+          "fontes": [
+            {
+              "id": "Recb8521738121078",
+              "trecho": "Produto de ótima qualidade, acabamento bem feito."
+            }
+          ]
+        },
+        {
+          "texto": "O tecido apresenta excelente qualidade.",
+          "fontes": [
+            {
+              "id": "R27c8ec2a97206d31",
+              "trecho": "Excelente qualidade do tecido."
+            }
+          ]
+        }
+      ],
+      "ms": 5839
+    },
+    {
+      "pergunta": "O que as avaliações dizem de positivo sobre o atendimento?",
+      "esperados": [
+        "D18",
+        "D19"
+      ],
+      "status": "respondido",
+      "pedidos_citados": [
+        "D18",
+        "D19"
+      ],
+      "achados": [
+        {
+          "texto": "A equipe tirou minhas dúvidas sobre a compra.",
+          "fontes": [
+            {
+              "id": "R13379e63d426c4ef",
+              "trecho": "Bom atendimento. A equipe tirou minhas dúvidas sobre a compra."
+            }
+          ]
+        },
+        {
+          "texto": "Responderam minha pergunta no mesmo dia.",
+          "fontes": [
+            {
+              "id": "R66b3b4138c5186b8",
+              "trecho": "Atendimento excelente, responderam minha pergunta no mesmo dia."
+            }
+          ]
+        }
+      ],
+      "ms": 4158
+    },
+    {
+      "pergunta": "Qual era a margem de lucro da Olist?",
+      "esperados": [],
+      "status": "insuficiente",
+      "pedidos_citados": [],
+      "achados": [],
+      "ms": 0
+    },
+    {
+      "pergunta": "Qual é a capital da Noruega?",
+      "esperados": [],
+      "status": "insuficiente",
+      "pedidos_citados": [],
+      "achados": [],
+      "ms": 332
+    },
+    {
+      "pergunta": "Qual foi o custo de cada entrega para o vendedor?",
+      "esperados": [],
+      "status": "insuficiente",
+      "pedidos_citados": [],
+      "achados": [],
+      "ms": 0
+    },
+    {
+      "pergunta": "Quais são as previsões para as vendas no próximo mês?",
+      "esperados": [],
+      "status": "insuficiente",
+      "pedidos_citados": [],
+      "achados": [],
+      "ms": 0
+    }
+  ]
+}
