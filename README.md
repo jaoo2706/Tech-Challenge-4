@@ -180,7 +180,7 @@ A busca híbrida teve o melhor MRR. A precisão por pergunta varia muito (por ex
 | `data/demo/` | Base sintética e perguntas de avaliação |
 | `tests/` | Testes de importação, filtros, geração controlada e abstenção |
 | `reports/` | Métricas da demo, exemplos reais, avaliação com rótulos automáticos e checagem funcional reproduzível |
-| [ROTEIRO_APRESENTACAO.md](ROTEIRO_APRESENTACAO.md) | Fala, cenas, demonstração e checklist da entrega |
+| [apresentacao/Voice_of_Customer_Revisada.pptx](apresentacao/Voice_of_Customer_Revisada.pptx) | Slides da apresentação |
 
 **Estado da validação.** O índice E5 foi construído sobre a base oficial da Olist: 99.224 linhas lidas, 56.656 sem texto útil, 13 duplicatas e 42.555 avaliações indexadas, de 42.421 pedidos. A geração foi executada com o Ollama local (`gemma3:4b`). No registro de 11 perguntas sobre a base real (`reports/exemplos_olist.json`, com texto e IDs das evidências), as 7 dentro do escopo foram respondidas com citações literais e as 4 fora do escopo (margem de lucro, capital da Noruega, bolo de chocolate, Copa do Mundo) resultaram em abstenção. Na base sintética o resultado foi o mesmo (7 de 7 e 4 de 4). Após o pente fino, duas perguntas adicionais dentro do domínio, mas sem evidência específica (drones e garantia de cinco anos para celulares), também resultaram em abstenção; perguntas sobre pedido não recebido e principais problemas continuaram respondidas.
 
